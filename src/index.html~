@@ -10,5 +10,6 @@
 </head>
 <body>
   <app-root>Loading...</app-root>
+  <componente1>Loading...</componente1>
 </body>
 </html>

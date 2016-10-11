@@ -1,3 +1,18 @@
 <h1>
   {{title}}
 </h1>
+<a href="{{enlace}}" >Click aquí</a>
+
+<p>
+  ¿Cómo te llamas?  <input type="text" [(ngModel)]="quien">
+</p>
+<p [hidden]="!visible">
+  Adiós {{quien}}
+</p>
+<button (click)="decirAdios()">Decir adiós</button>
+<form action="demo_form.asp">
+  First name: <input type="text" name="fname" value="{{nombre}}"><br>
+  Last name: <input type="text" name="lname" value="{{apellido}}"><br>
+  <input type="submit" value="Submit">
+</form>
+

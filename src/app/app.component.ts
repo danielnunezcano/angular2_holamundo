@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = '¡Funcionando!';
+  nombre = 'Daniel';
+  apellido = 'Núñez';
+  visible = false;
+  enlace = 'http://www.elblogdedani.com';
+  decirAdios() {
+    if(this.visible == true) this.visible = false;
+    else this.visible = true;
+  }
 }
