@@ -9,7 +9,6 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root>Loading...</app-root>
-  <componente1>Loading...</componente1>
+  <aplicacion>Loading...</aplicacion>
 </body>
 </html>
