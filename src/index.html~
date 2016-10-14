@@ -10,5 +10,6 @@
 </head>
 <body>
   <aplicacion>Loading...</aplicacion>
+  <app-componente-simple>Cargando...</app-componente-simple>
 </body>
 </html>
