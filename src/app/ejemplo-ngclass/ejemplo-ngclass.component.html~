@@ -1,0 +1,1 @@
+<p [ngClass]="arrayClases">Pueden aplicarse varias clases</p>

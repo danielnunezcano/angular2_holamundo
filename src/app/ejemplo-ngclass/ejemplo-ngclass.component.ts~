@@ -1,0 +1,15 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-ejemplo-ngclass',
+  templateUrl: './ejemplo-ngclass.component.html',
+  styleUrls: ['./ejemplo-ngclass.component.css']
+})
+export class EjemploNgclassComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
